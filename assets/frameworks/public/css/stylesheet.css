@@ -1,0 +1,29 @@
+.loading-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 999;
+}
+
+.spinner{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#profile-view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.login-style{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)), url(../../../../upload/login-background.jpg) center/cover no-repeat fixed;
+}
